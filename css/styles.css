@@ -10,12 +10,55 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
-    background-color: yellow;
+    height: 30%;
+    padding:8px 10px;
+    background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between;   
 
 }
 
 
+.logo {
+     font-size: 24px;
+     color: #f9faf8;
+     text-decoration: none;
+     padding: 8px 8px;
+
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    margin-left: 24px; 
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border: 1px solid beige;
+
+}
+
+.box-content {
+    flex: 1; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;     
+}
+  
+  .box-link {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .box-register,
+  .box-about,
+  .box-login {
+    padding: 10px;
+    text-align: center;
+  }
